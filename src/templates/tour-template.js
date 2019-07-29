@@ -29,6 +29,7 @@ const TourTemplate = ({data}) => {
                     <h3><p> {name}</p></h3>
                     <FaMoneyBillWave className={styles.icon}></FaMoneyBillWave><h3><p>cost: $ {price}</p></h3>
                     <h3><p>Country: {country}</p></h3>
+                    <h4>Description</h4>
             
             </div>
 
